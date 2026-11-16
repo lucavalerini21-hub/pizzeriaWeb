@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Logo pizzeria">
+  <defs>
+    <radialGradient id="lg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#e07a1f"/>
+    </radialGradient>
+  </defs>
+  <circle cx="60" cy="60" r="57" fill="#fff8ec" stroke="#fff" stroke-width="6"/>
+  <circle cx="60" cy="60" r="46" fill="url(#lg)" stroke="#c96a12" stroke-width="4"/>
+  <circle cx="45" cy="45" r="7" fill="#b3261e"/>
+  <circle cx="74" cy="52" r="8" fill="#b3261e"/>
+  <circle cx="55" cy="73" r="7" fill="#b3261e"/>
+  <path d="M40 62c6-8 12-4 17-1" stroke="#3f7d4e" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M63 33c7 5 5 11 2 15" stroke="#3f7d4e" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M72 74c7 3 6 9 3 12" stroke="#3f7d4e" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

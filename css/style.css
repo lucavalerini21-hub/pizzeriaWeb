@@ -1,0 +1,245 @@
+/* ============================================================
+   Pizzeria Da Giotto - foglio di stile del template
+   Le classi qui presenti sono quelle che gli sviluppatori
+   devono riutilizzare nelle proprie sezioni del menu.
+   ============================================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --rosso: #b3261e;
+  --rosso-scuro: #8c1d17;
+  --crema: #fdf6e9;
+  --marrone: #4a3126;
+  --verde: #3f7d4e;
+  --ombra: 0 10px 24px rgba(74, 49, 38, .14);
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
+  color: var(--marrone);
+  background:
+    radial-gradient(circle at 12% 8%, rgba(179, 38, 30, .06), transparent 45%),
+    radial-gradient(circle at 88% 90%, rgba(63, 125, 78, .07), transparent 40%),
+    var(--crema);
+  line-height: 1.5;
+}
+
+/* ---------- intestazione ---------- */
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.2rem clamp(1rem, 5vw, 4rem);
+  background: linear-gradient(135deg, var(--rosso), var(--rosso-scuro));
+  color: #fff;
+  box-shadow: var(--ombra);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+}
+
+.brand h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.4rem, 3vw, 2.1rem);
+  letter-spacing: .01em;
+}
+
+.sottotitolo {
+  margin: .1rem 0 0;
+  font-size: .85rem;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  opacity: .85;
+}
+
+.site-nav {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem 1rem;
+  border: 1px solid rgba(255, 255, 255, .45);
+  border-radius: 999px;
+  font-weight: 600;
+  transition: background .2s, color .2s;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible {
+  background: #fff;
+  color: var(--rosso);
+}
+
+/* ---------- griglia dei menu ---------- */
+
+.menu-griglia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.75rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem);
+}
+
+.menu-sezione {
+  background: #fff;
+  border-radius: 18px;
+  padding: 1.5rem;
+  box-shadow: var(--ombra);
+  border-top: 6px solid var(--rosso);
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-sezione.dolci {
+  border-top-color: var(--verde);
+}
+
+.menu-sezione.bevande {
+  border-top-color: #2b6ca3;
+}
+
+.menu-sezione h2 {
+  margin: 0 0 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.menu-sezione .intro {
+  margin: 0 0 1rem;
+  text-align: center;
+  font-size: .9rem;
+  font-style: italic;
+  opacity: .75;
+}
+
+/* ---------- elenco dei piatti ---------- */
+
+.lista-piatti {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.piatto {
+  display: grid;
+  grid-template-columns: 88px 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed rgba(74, 49, 38, .2);
+}
+
+.piatto:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.piatto img {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 14px;
+  background: var(--crema);
+  border: 1px solid rgba(74, 49, 38, .12);
+}
+
+.piatto h3 {
+  margin: 0 0 .2rem;
+  font-size: 1.05rem;
+}
+
+.piatto p {
+  margin: 0;
+  font-size: .85rem;
+  opacity: .8;
+}
+
+.piatto .prezzo {
+  font-weight: 700;
+  color: var(--rosso);
+  font-size: 1.05rem;
+  white-space: nowrap;
+}
+
+.badge {
+  display: inline-block;
+  margin-left: .4rem;
+  padding: .05rem .5rem;
+  border-radius: 999px;
+  background: var(--verde);
+  color: #fff;
+  font-size: .65rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  vertical-align: middle;
+}
+
+.menu-sezione.evidenzia {
+  animation: pulsa 1.2s ease;
+}
+
+@keyframes pulsa {
+  0% { box-shadow: 0 0 0 0 rgba(179, 38, 30, .55); }
+  100% { box-shadow: 0 0 0 24px rgba(179, 38, 30, 0); }
+}
+
+/* ---------- piè di pagina ---------- */
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem 2.5rem;
+  font-size: .85rem;
+  opacity: .8;
+}
+
+.site-footer p {
+  margin: .2rem 0;
+}
+
+.nota {
+  font-style: italic;
+  opacity: .7;
+}
+
+/* ---------- adattamento per schermi piccoli ---------- */
+
+@media (max-width: 520px) {
+  .piatto {
+    grid-template-columns: 64px 1fr;
+  }
+
+  .piatto img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .piatto .prezzo {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
