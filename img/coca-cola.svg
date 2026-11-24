@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Coca-Cola">
+  <rect width="200" height="200" fill="#fdeeee"/>
+  <ellipse cx="100" cy="170" rx="52" ry="10" fill="#e9d3d3"/>
+  <path d="M66 78h68l-6 80c-.5 7-6 12-13 12H85c-7 0-12.5-5-13-12z" fill="#a81c2b"/>
+  <path d="M66 78h68l-1 14H67z" fill="#8c1623"/>
+  <path d="M82 96c6 16 30 16 36 0" stroke="#fff2f2" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <g fill="#f4d7d9">
+    <circle cx="92" cy="120" r="3"/>
+    <circle cx="108" cy="128" r="2.5"/>
+    <circle cx="96" cy="140" r="2.5"/>
+    <circle cx="112" cy="148" r="3"/>
+  </g>
+  <g fill="#f6e3e4">
+    <rect x="88" y="72" width="7" height="9" rx="2"/>
+    <rect x="100" y="70" width="7" height="11" rx="2"/>
+    <rect x="112" y="72" width="7" height="9" rx="2"/>
+  </g>
+  <path d="M118 56l14-22" stroke="#f2a93b" stroke-width="7" stroke-linecap="round"/>
+</svg>
