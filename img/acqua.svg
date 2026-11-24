@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Acqua naturale">
+  <rect width="200" height="200" fill="#eef7fb"/>
+  <ellipse cx="100" cy="168" rx="58" ry="11" fill="#d3e6ef"/>
+  <path d="M88 34h24v14l10 22v82c0 7-5 12-12 12H90c-7 0-12-5-12-12V70l10-22z" fill="#cbe8f2" stroke="#8ec3d8" stroke-width="4"/>
+  <path d="M84 96h32v50c0 6-4 10-10 10h-12c-6 0-10-4-10-10z" fill="#9fd3e6" opacity=".85"/>
+  <rect x="86" y="26" width="28" height="12" rx="4" fill="#2b6ca3"/>
+  <rect x="82" y="112" width="36" height="26" rx="3" fill="#fffdf6" stroke="#8ec3d8" stroke-width="2"/>
+  <path d="M100 118v14M94 125h12" stroke="#2b6ca3" stroke-width="3" stroke-linecap="round"/>
+  <g stroke="#fff" stroke-width="3" opacity=".8" stroke-linecap="round">
+    <path d="M96 84v8"/>
+    <path d="M104 76v6"/>
+    <path d="M96 60v4"/>
+  </g>
+</svg>
