@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pizza Margherita">
+  <rect width="200" height="200" fill="#fff6e5"/>
+  <circle cx="100" cy="104" r="78" fill="#d9a45b"/>
+  <circle cx="100" cy="100" r="70" fill="#f4c97b"/>
+  <circle cx="100" cy="100" r="60" fill="#c93a2b"/>
+  <g fill="#fffaf0">
+    <ellipse cx="78" cy="76" rx="15" ry="12" transform="rotate(-18 78 76)"/>
+    <ellipse cx="126" cy="86" rx="14" ry="11" transform="rotate(14 126 86)"/>
+    <ellipse cx="90" cy="122" rx="16" ry="12" transform="rotate(8 90 122)"/>
+    <ellipse cx="128" cy="124" rx="11" ry="9"/>
+    <ellipse cx="104" cy="98" rx="10" ry="8"/>
+  </g>
+  <g stroke="#3f7d4e" stroke-width="5" fill="#4f9a62" stroke-linecap="round">
+    <path d="M64 96c10-6 18-2 24 3" fill="none"/>
+    <path d="M104 64c9 6 8 14 4 20" fill="none"/>
+    <path d="M112 132c8-7 16-5 19 1" fill="none"/>
+  </g>
+</svg>
