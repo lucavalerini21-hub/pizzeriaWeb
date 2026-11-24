@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Cheesecake ai frutti di bosco">
+  <rect width="200" height="200" fill="#fdf1f3"/>
+  <ellipse cx="100" cy="166" rx="70" ry="14" fill="#efdde0"/>
+  <path d="M46 152h108v-40c0-6-4-10-10-10H56c-6 0-10 4-10 10z" fill="#f5e2bd"/>
+  <path d="M46 122h108v-22c0-5-4-8-9-8H55c-5 0-9 3-9 8z" fill="#fdf6e4"/>
+  <path d="M46 100h108v-14c0-5-4-9-9-9H55c-5 0-9 4-9 9z" fill="#fffdf6"/>
+  <path d="M46 100h108v-4H46z" fill="#e8d3ae"/>
+  <g>
+    <circle cx="72" cy="84" r="11" fill="#8e2f4f"/>
+    <circle cx="96" cy="78" r="8" fill="#b23a63"/>
+    <circle cx="118" cy="88" r="10" fill="#7a2c4a"/>
+    <circle cx="140" cy="80" r="7" fill="#a83a5f"/>
+    <circle cx="84" cy="70" r="6" fill="#c24b74"/>
+  </g>
+  <g fill="#5b6f9a">
+    <circle cx="108" cy="66" r="5"/>
+    <circle cx="130" cy="66" r="4"/>
+  </g>
+  <path d="M56 150c14 9 30 12 44 12s30-3 44-12" stroke="#e2c8a0" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
