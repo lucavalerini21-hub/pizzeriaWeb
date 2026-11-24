@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Tiramisù">
+  <rect width="200" height="200" fill="#fdf3e3"/>
+  <ellipse cx="100" cy="168" rx="66" ry="12" fill="#e6d3bb"/>
+  <g>
+    <rect x="40" y="126" width="120" height="30" rx="4" fill="#f0dfc2"/>
+    <rect x="40" y="102" width="120" height="24" rx="4" fill="#fffdf7"/>
+    <rect x="40" y="84" width="120" height="18" rx="4" fill="#f0dfc2"/>
+    <rect x="40" y="64" width="120" height="20" rx="4" fill="#fffdf7"/>
+  </g>
+  <path d="M38 66h124v-8c0-6-5-10-11-10H49c-6 0-11 4-11 10z" fill="#5b3a25"/>
+  <g fill="#7d5233">
+    <circle cx="60" cy="55" r="2.6"/>
+    <circle cx="76" cy="50" r="2.2"/>
+    <circle cx="95" cy="56" r="2.8"/>
+    <circle cx="112" cy="49" r="2.2"/>
+    <circle cx="130" cy="55" r="2.6"/>
+    <circle cx="144" cy="50" r="2.1"/>
+  </g>
+  <g fill="#e8cba4">
+    <circle cx="58" cy="112" r="4"/>
+    <circle cx="82" cy="112" r="4"/>
+    <circle cx="108" cy="112" r="4"/>
+    <circle cx="132" cy="112" r="4"/>
+  </g>
+  <g fill="#8b5a34" opacity=".55">
+    <circle cx="66" cy="88" r="4"/>
+    <circle cx="94" cy="90" r="4"/>
+    <circle cx="122" cy="88" r="4"/>
+    <circle cx="146" cy="90" r="4"/>
+  </g>
+  <path d="M58 148c10 8 24 10 42 10s32-2 42-10" stroke="#d8bd97" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
